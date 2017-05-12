@@ -21,5 +21,5 @@ rows affected,1 warning(0.00 sec)
 win版的mysql，不会生成随便密码，只需要要安装时初始化就行了。  
 如果是已经安装好的mysql忘了密码，可以先备份data文件夹，然后删除data文件夹，再执行3、4、5步即可。  
 
-###增加新用户并授权  
+### 增加新用户并授权  
 GRANT ALL PRIVILEGES ON *.* TO 'dds'@'%' IDENTIFIED BY 'dds' WITH GRANT OPTION  
