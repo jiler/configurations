@@ -1,7 +1,7 @@
 ### 安装  
 1. 首先下载解压版mysql5.7,并解压  
-2. 打开目录，复制my-default.ini，然后改为my.ini，编辑该文件，添加
-basedir = D:\\install\\mysql  
+2. 打开目录，复制my-default.ini，然后改为my.ini，编辑该文件，添加  
+>basedir = D:\\install\\mysql  
 datadir = D:\\install\\mysql\\data  
 具体路径自己修改，然后保存。  
 3. 打开bin目录，在此处打开cmd，执行  
@@ -12,8 +12,7 @@ D:\install\mysql\bin>mysqld  --initialize-insecure
 注意以管理员权限来执行。  
 5. 之后重新开一个界面，连接mysql并修改密码  
 >mysql-uroot  
-Welcome to theMySQL...........  
-.............  
+Welcome to the MySQL........................  
 mysql>set password=password('root');  
 Query OK,0  
 rows affected,1 warning(0.00 sec)  
